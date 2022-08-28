@@ -29,8 +29,8 @@ function App() {
       </div>
       <div>
         <ul>
-          {items.map(todoItem => (
-            <li>{todoItem}</li>
+          {items.map(todoItems => (
+            <li>{todoItems}</li>
           ))}
         </ul>
       </div>
